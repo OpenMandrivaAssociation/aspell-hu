@@ -18,7 +18,6 @@ URL:		   http://aspell.sourceforge.net/
 #Source:	       http://prdownloads.sourceforge.net/wordlist-hu/wordlist-hu-%{src_ver}.tar.bz2
 #URL:		   http://wordlist-hu.sourceforge.net
 License:	   GPL
-BuildRoot:     %{_tmppath}/%{name}-%{version}-root
 
 BuildRequires: aspell >= %{aspell_ver}
 BuildRequires: make
